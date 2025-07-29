@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video-Storyboard Ressourcen</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #5a67d8;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #718096;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        .resource-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 5px solid #5a67d8;
+        }
+
+        .resource-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .resource-card:nth-child(odd) {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            border-left-color: #ff6b6b;
+        }
+
+        .resource-card:nth-child(even) {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            border-left-color: #4ecdc4;
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            background-color: #5a67d8;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-size: 24px;
+            color: white;
+        }
+
+        .resource-card:nth-child(odd) .icon {
+            background-color: #ff6b6b;
+        }
+
+        .resource-card:nth-child(even) .icon {
+            background-color: #4ecdc4;
+        }
+
+        h2 {
+            color: #2d3748;
+            font-size: 1.8em;
+            margin: 0;
+            flex-grow: 1;
+        }
+
+        .description {
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .highlights {
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .highlights h3 {
+            color: #5a67d8;
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .highlights ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .highlights li {
+            color: #2d3748;
+            margin-bottom: 5px;
+        }
+
+        .link-button {
+            display: inline-block;
+            background-color: #5a67d8;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .link-button:hover {
+            background-color: #4c51bf;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .resource-card:nth-child(odd) .link-button {
+            background-color: #ff6b6b;
+        }
+
+        .resource-card:nth-child(odd) .link-button:hover {
+            background-color: #ff5252;
+        }
+
+        .resource-card:nth-child(even) .link-button {
+            background-color: #4ecdc4;
+        }
+
+        .resource-card:nth-child(even) .link-button:hover {
+            background-color: #45b7aa;
+        }
+
+        .emoji {
+            font-size: 1.2em;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.4em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 Video-Storyboard Ressourcen</h1>
+        <p class="subtitle">Drei wertvolle Anleitungen für die Erstellung professioneller Video-Storyboards</p>
+
+        <div class="resource-card">
+            <div class="card-header">
+                <div class="icon">📋</div>
+                <h2>Filmora: Traditioneller Storyboard-Leitfaden</h2>
+            </div>
+            <p class="description">
+                Wondershare Filmora präsentiert Storyboards als <strong>"Revolution im Bereich Motion Graphics"</strong>. 
+                Diese umfassende Anleitung führt Sie Schritt für Schritt von der Idee zum fertigen Storyboard.
+            </p>
+            <div class="highlights">
+                <h3>Das lernen Sie:</h3>
+                <ul>
+                    <li>4-stufiger Erstellungsprozess von der Ideenfindung bis zur Überarbeitung</li>
+                    <li>Unterscheidung zwischen traditionellen, Thumbnail und animierten Storyboards</li>
+                    <li>Praktische Tipps zur Nummerierung und Teamkommunikation</li>
+                    <li>Kostenersparnis durch professionelle Planung</li>
+                </ul>
+            </div>
+            <a href="https://filmora.wondershare.de/video-editing/storyboard.html" target="_blank" class="link-button">
+                Zur Filmora-Anleitung →
+            </a>
+        </div>
+
+        <div class="resource-card">
+            <div class="card-header">
+                <div class="icon">🤖</div>
+                <h2>Clipchamp: KI-gestützte Videoskripterstellung</h2>
+            </div>
+            <p class="description">
+                Entdecken Sie die <strong>KI-Revolution in der Videoproduktion</strong>! Clipchamp zeigt, wie Sie mit 
+                künstlicher Intelligenz in Sekunden professionelle Videoskripte erstellen.
+            </p>
+            <div class="highlights">
+                <h3>Innovative Features:</h3>
+                <ul>
+                    <li>Über 400 KI-generierte Voiceover-Stimmen in globalen Sprachen</li>
+                    <li>Automatische Untertitelerstellung in 80+ Sprachen</li>
+                    <li>Konkrete Prompt-Beispiele für verschiedene Videotypen</li>
+                    <li>95% Kostenersparnis gegenüber Studio-Produktionen</li>
+                </ul>
+            </div>
+            <a href="https://clipchamp.com/de/blog/ki-prompts-erstellen-videodrehbuecher/" target="_blank" class="link-button">
+                Zu Clipchamp KI-Tools →
+            </a>
+        </div>
+
+        <div class="resource-card">
+            <div class="card-header">
+                <div class="icon">📈</div>
+                <h2>TechSmith: Storyboards für Videomarketing</h2>
+            </div>
+            <p class="description">
+                TechSmith fokussiert auf <strong>Storyboards als strategisches Marketing-Werkzeug</strong>. 
+                Lernen Sie, wie visuelle Planung Ihre Videomarketing-Kampagnen zum Erfolg führt.
+            </p>
+            <div class="highlights">
+                <h3>Marketing-Vorteile:</h3>
+                <ul>
+                    <li>Frühzeitige Problemerkennung spart Zeit und Budget</li>
+                    <li>Effektive Stakeholder-Kommunikation</li>
+                    <li>Mobile-First-Ansatz für Social Media</li>
+                    <li>Integration als fester Bestandteil des Produktionsprozesses</li>
+                </ul>
+            </div>
+            <a href="https://www.techsmith.de/blog/videomarketing-storyboard/" target="_blank" class="link-button">
+                Zum TechSmith Blog →
+            </a>
+        </div>
+    </div>
+</body>
+</html>
